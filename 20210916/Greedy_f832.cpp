@@ -22,31 +22,34 @@ int main() { // long保險一點
     sort(w,w+n,greater<long>()); 
     sort(c,c+m,greater<long>());
 
+    /*
+    cout << "原本: ";
+    for (long long i = 0; i < n; i++) {
+        cout << w[i] << " ";
+    }
+    cout << endl << "最重: ";
+    for (long long i = 0; i < m; i++) {
+        cout << c[i] << " ";
+    }
+    cout << endl << "============\n";
+    */
+
     //judge
     long total = 0;
     long temp = -1; //第幾個位置超過
-    for (long long i = 0; i < m; i++) {//看最多
-        for (long long j = temp+1; j < n; j++) {
-            if (w[j] <= c[i]) {
-                temp = j;
-                total += w[i];
-                //cout << total << " " << temp << endl;
-                break;
+    for (long i = 0; i < m; i++) {//看最多
+        for (long j = temp+1; j < n; j++) {
+            if (w[j] > c[i]) {
+                //最大重量都不合  
             } else {
-                //最大重量都不合
-                i++;
+                temp = j;
+                total += w[j];
+                //cout << total << " i" << i << " j" << j << endl;
+                break;
             }
         }
     }
     
     cout << total << endl;
-    /*
-    for (long long i = 0; i < n; i++) {
-        cout << w[i] << " ";
-    }
-    cout << endl;
-    for (long long i = 0; i < m; i++) {
-        cout << c[i] << " ";
-    }
-    */
+    
 } 
