@@ -66,3 +66,5 @@ openhome.cc
 # 我自己加的資料
 ## 貪婪演算法(Greedy algorithm)
 https://medium.com/@chiahunglin/%E6%88%91%E7%9A%84dsa%E6%97%A5%E8%A8%98-7-e15613948c91
+裡面有更多練習的題目 (以後慢慢做owo)
+https://www.csie.ntu.edu.tw/~b98902112/cpp_and_algo/cpp02/greedy.html
