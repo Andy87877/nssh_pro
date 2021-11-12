@@ -1,3 +1,5 @@
+# https://hackmd.io/@nssh/nscsc/%2FgDamy4sXS8WFZMrNFAGx2A
+
 # 20210930 進階班
 
 ==[Github](https://github.com/nanshan-high-school/20210930-homework-pro)==
