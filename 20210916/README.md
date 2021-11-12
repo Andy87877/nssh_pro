@@ -1,6 +1,8 @@
 # https://hackmd.io/@nssh/nscsc/%2FLFTk2vVVTPyoD3hgdzwfYg
 
-# 資培0916
+# 資培0916 
+## 貪婪演算法(Greedy algorithm) 
+## 動態規劃 (Dynamic programming)
 
 ### 貪婪演算法
 局部最佳解，且之前做的選擇不會影響到後續的選擇
