@@ -2,7 +2,7 @@
 
 # 20210930 進階班
 
-==[Github](https://github.com/nanshan-high-school/20210930-homework-pro)==
+[Github](https://github.com/nanshan-high-school/20210930-homework-pro)
 
 ## DP
 ### [ZJ-B184 裝貨櫃問題](https://zerojudge.tw/ShowProblem?problemid=b184)
