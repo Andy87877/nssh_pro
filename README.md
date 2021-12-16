@@ -1,4 +1,4 @@
-# nssh_pro 進階班上課內容與練習
+# nssh_pro 進階班上課內容與練習(不更新了!!!)
 ## https://hackmd.io/@nssh/nscsc/%2FLFTk2vVVTPyoD3hgdzwfYg
 
 # 各種有用(?)的演算法
